@@ -24,6 +24,15 @@ public class Fibonacci {
         return serieFibonacci.get(lim - 1);
     }
 
+    // Devolver la posición de determinado número si está en la serie.
+    public int getPosNum(int num) {
+        for (int i = 0; i < lim; i++) {
+            if (serieFibonacci.get(i) == num) {
+                return i + 1;
+            }
+        }
+        return -1;
+    }
 
     //toString
     @Override
