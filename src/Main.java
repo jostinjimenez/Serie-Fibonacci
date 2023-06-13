@@ -1,4 +1,4 @@
-/*TODO Implementar la serie fibonacci utilizando colecciones:
+/*Implementar la serie fibonacci utilizando colecciones:
 
 Implementar los métodos:
 
