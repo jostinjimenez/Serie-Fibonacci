@@ -15,9 +15,8 @@ public class Main {
         fibonacci.getSerieFibonacci();
 
         System.out.println("Serie generada con LinkedList: " + fibonacci);
-
         System.out.println("Posicion de determinado numero si esta en la serie: " + fibonacci.getPosNum(8));
-
+        System.out.println("Serie generada con recursividad: " + fibonacci.getRecursividad(8));
 
     }
 }

@@ -34,6 +34,15 @@ public class Fibonacci {
         return -1;
     }
 
+    // Recursividad
+    public int getRecursividad(int num) {
+        if (num == 0 || num == 1) {
+            return 1;
+        } else {
+            return getRecursividad(num - 1) + getRecursividad(num - 2);
+        }
+    }
+
     //toString
     @Override
     public String toString() {
